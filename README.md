@@ -8,7 +8,7 @@ This code defines a Generative Adversarial Network (GAN) for generating images. 
 - `batch_size`: Number of images in each batch during training (e.g., 128).
 - `latent_size`: Size of the latent space, which is the input to the generator network.
 - `stats`: Mean and standard deviation for normalizing the image data.
-- Learning Rate (`lr`): Learning rate for the Adam optimizer used in training both the generator and discriminator networks.
+- Learning Rate (`lr`): Learning rate of 0.0002 for the Adam optimizer used in training both the generator and discriminator networks.
 - `momentum`: Momentum parameter used in batch normalization layers.
 
 ### Layers:
